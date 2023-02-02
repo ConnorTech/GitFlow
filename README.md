@@ -1,4 +1,7 @@
 # Notes for Git and GitHub
+
+https://www.w3schools.com/git/default.asp?remote=github
+
 https://www.geeksforgeeks.org/ultimate-guide-git-github/
 
 Git Repository Structure consists of 4 parts:  
