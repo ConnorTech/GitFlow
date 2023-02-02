@@ -156,7 +156,6 @@ git diff origin/master
 
 //Merge our current branch (master) with origin/master:
 
-git merge origin/master
 
 git status
 >On branch master
@@ -395,4 +394,19 @@ git reset e56ba1f
 git log --oneline
     > e56ba1f (HEAD -> master) Revert "Just a regular update, definitely no accidents here..."
     > 52418f7 Just a regular update, definitely no accidents here...
+    > 9a9add8 (origin/master) Added .gitignore
+
+
+## Git commit --amend
+commit --amend is used to modify the most recent commit.
+
+It combines changes in the staging environment with the latest commit, and creates a new commit.
+
+This new commit replaces the latest commit entirely.
+
+//Change the commit message
+git commit --amend -m "Added lines to README.md"
+
+git log --oneline
+    > eaa69ce (HEAD -> master) Added lines to README.md
     > 9a9add8 (origin/master) Added .gitignore
